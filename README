@@ -1,0 +1,35 @@
+# Simulador de Carrera de Autos en C++
+
+Este proyecto simula una carrera de autos usando hebras (threads) y sincronización con mutex en C++.
+Los autos avanzan una distancia aleatoria en cada iteración y el primero en cruzar la meta gana.
+
+##
+Crea una cantidad variable de autos, los cuales serán asignados a una propia hebra.
+Los autos avanzan de manera aleatoria, en un rango de 1 a 10, en una distancia total definida por el usuario.
+Sincronización entre hebras usando mutex para evitar conflictos entre las variantes en la consola.
+Muestra el avance en tiempo real y los resultados finales de la carrera.
+
+## Compilación y Ejecución
+
+1. **Compilar el programa**:
+   
+   Si tienes un Makefile, puedes compilar con:
+
+   bash
+   make
+
+
+2. **Ejecutar el programa**:
+
+   bash
+   make run
+
+3. **Para limpiar el archivo generado**:
+
+   bash
+   make clear
+
+## NOTA
+
+   Los parámetros por defecto son 100 metros y 3 hebras.
+   Se puede modificar editando el archivo Makefile 
